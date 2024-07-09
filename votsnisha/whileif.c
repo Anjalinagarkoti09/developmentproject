@@ -1,7 +1,6 @@
-
-while(1)
+do
 {
-printf("Enter an operator(+,-,*,/),if you want to exit press x: ");
+printf("Enter an operator to calculate (+,-,*,/)\tor\t,if you want to exit press :- x\t \t:- ");
 scanf("%c", &operator);
 
 if(operator =='x'){
@@ -10,7 +9,10 @@ break;
 
 }
 printf("Enter two number: ");
-scanf("%d %d", &num1,num2);
-
-
+scanf("%d %d", &num1,&num2);
 }
+while (getchar() != 'x');
+
+// here will be the switch case
+//then
+while(operator != 'x');
