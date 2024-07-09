@@ -11,7 +11,7 @@ int main() {
 
     do {
         printf("Enter an operator to calculate (+, -, *, /) or press 'x' to exit: ");
-        scanf(" %c", &operator);  // Note the space before %c to consume leading whitespace
+        scanf(" %c", &operator); 
 
         if (operator == 'x') {
             printf("Exiting the program.\n");
@@ -21,7 +21,7 @@ int main() {
         printf("Enter two numbers: ");
         scanf("%d %d", &num1, &num2);
 
-        // Clear the input buffer
+        
         while (getchar() != '\n');
 
         switch (operator) {
